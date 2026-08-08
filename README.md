@@ -1,4 +1,6 @@
-<img width="950" height="501" alt="img" src="https://github.com/user-attachments/assets/d063779c-ff50-4792-a41a-4ffaa559dca5" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d063779c-ff50-4792-a41a-4ffaa559dca5" alt="Project banner" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,0.12);" />
+</p>
 
 # 📊 Data Jobs Market Analysis & Salary Dashboard
 
@@ -306,6 +308,26 @@ Compares the popularity of technical skills with their associated salary levels.
 ### 📊 Skill Count vs Salary
 
 Explores whether a broader technical skill set is associated with higher compensation.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a0466a2e-25d9-482b-9353-f2a33dda4725" alt="Skill demand vs salary" style="width:90%;max-width:1100px;height:auto;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,0.08);" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1d855594-2a23-41f9-aa17-eba2c63017eb" alt="Salary by job title" style="width:90%;max-width:1100px;height:auto;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,0.08);" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/078a43a6-242c-4339-8930-e1c4d0106ceb" alt="Salary by country map" style="width:90%;max-width:1100px;height:auto;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,0.08);" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a86c3cc4-b6b1-41a8-88ad-785956c73439" alt="Skill count vs salary" style="width:90%;max-width:1100px;height:auto;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,0.08);" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/75cc4cf9-17a1-4377-91a5-f2a9b81a350a" alt="Dashboard overview" style="width:90%;max-width:1400px;height:auto;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,0.08);" />
+</p>
 
 ---
 
