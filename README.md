@@ -35,8 +35,10 @@ The main goal of this project was to develop practical **Excel data analytics sk
 
 | File                      | Description                                     |
 | ------------------------- | ----------------------------------------------- |
-| `1_Salary_Dashboard.xlsx` | Interactive Excel salary dashboard              |
-| `2_Project_Analysis.xlsx` | Detailed data analysis and exploratory workbook |
+| `Salary_Dashboard.xlsx`    | Interactive Excel salary dashboard              |
+| `Data_Analysis.xlsx`       | Detailed data analysis and exploratory workbook |
+| `data_jobs_salary_all.xlsx`     | Raw job-market dataset (all postings)       |
+| `data_jobs_salary_monthly.xlsx` | Monthly aggregated salary data              |
 
 ---
 
@@ -384,21 +386,15 @@ This analysis can be useful for:
 # 📁 Repository Structure
 
 ```text
-Data-Jobs-Market-Analysis/
+Excel-Data-Analytics-project-master/
 │
-├── data/
-│   └── data_jobs.csv
-│
-├── workbooks/
-│   ├── 1_Salary_Dashboard.xlsx
-│   └── 2_Project_Analysis.xlsx
-│
-├── visuals/
-│   └── dashboard.png
-│
-├── README.md
-│
-└── ...
+├── data_jobs_salary_all.xlsx       ← Raw job-market dataset (all postings)
+├── data_jobs_salary_monthly.xlsx   ← Monthly aggregated salary data
+├── Data_Analysis.xlsx              ← Full exploratory analysis workbook
+├── Salary_Dashboard.xlsx           ← Interactive salary dashboard
+├── analysis.py                     ← Python EDA & salary analysis script
+├── analysis.sql                    ← SQL business questions & queries
+└── README.md
 ```
 
 ---
@@ -406,12 +402,51 @@ Data-Jobs-Market-Analysis/
 # 🚀 Getting Started
 
 1. Download or clone this repository.
-2. Open `2_Project_Analysis.xlsx` to explore the detailed analysis.
-3. Open `1_Salary_Dashboard.xlsx` to interact with the salary dashboard.
+2. Open `Data_Analysis.xlsx` to explore the detailed analysis.
+3. Open `Salary_Dashboard.xlsx` to interact with the salary dashboard.
 4. Use the available filters to explore different job titles, countries, and employment types.
 5. Review the PivotTables, charts, and calculations to understand how the insights were generated.
 
 > **Note:** Some Excel features such as Power Query, Power Pivot, DAX, and certain visualizations may work best with the desktop version of Microsoft Excel.
+
+---
+
+# 🐍 Python Analysis
+
+A standalone Python script (`analysis.py`) replicates and extends the Excel analysis using **pandas**, **matplotlib**, and **seaborn**.
+
+### Requirements
+
+```bash
+pip install pandas openpyxl matplotlib seaborn
+```
+
+### Run
+
+```bash
+python analysis.py
+```
+
+### What It Covers
+
+* Median salary by job title
+* Salary distribution by employment type
+* Top 10 most in-demand technical skills
+* Country-level salary comparison
+* Skill count vs. median salary correlation
+
+---
+
+# 🗄️ SQL Analysis
+
+`analysis.sql` contains business-focused queries answering the same key questions using standard SQL (compatible with SQLite, PostgreSQL, and MySQL after importing the data).
+
+### Key Queries
+
+* Top-paying job titles by median salary
+* Most in-demand skills across all roles
+* Salary ranges by country and employment type
+* Senior vs. entry-level salary comparison
 
 ---
 
